@@ -8,33 +8,26 @@
 
 Pod::Spec.new do |s|
   s.name             = "libmuse"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of libmuse."
+  s.version          = "1.2.1"
+  s.summary          = "libmuse is a library for interfacing with Muse headbands."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+s.description      = "libmuse is a library for interfacing with Muse headbands, including finding paired Muses, connecting to them, reading their state, and receiving packets for raw EEG data and all other values. You can use it in your own applications, subject to the terms of our license.
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/libmuse"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Ramón Argüello" => "monchote@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/libmuse.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+The library consists of two parts: a core in C++ and a platform-specific interface in whatever language your platform writes its interfaces in: Java for Android, Objective-C for iOS."
+
+  s.homepage         = "https://github.com/monchote/libmuse"
+  s.license          = 'Please read the LICENSE file'
+  s.author           = { "InteraXon" => "http://developer.choosemuse.com/" }
+  s.source           = { :git => "https://github.com/monchote/libmuse.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'libmuse' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Headers/Muse/*.h'
+  s.vendored_libraries = 'libMuse.a'
 end
