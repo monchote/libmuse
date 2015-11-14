@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['getannotation',['getAnnotation',['../protocol_i_x_n_muse_file_reader-p.html#ac08ce4483d73d60a66d1bc7aa48f0b7d',1,'IXNMuseFileReader-p']]],
+  ['getbufferedmessagessize',['getBufferedMessagesSize',['../protocol_i_x_n_muse_file_writer-p.html#a94e9df01607fc64a8df2610f524b3ef8',1,'IXNMuseFileWriter-p']]],
+  ['getbufferredmessagescount',['getBufferredMessagesCount',['../protocol_i_x_n_muse_file_writer-p.html#a8f73870d08136b67c1c9dba12223a00f',1,'IXNMuseFileWriter-p']]],
+  ['getcomputingdeviceconfiguration',['getComputingDeviceConfiguration',['../protocol_i_x_n_muse_file_reader-p.html#a4e479b858bfdf702baed52ab08389419',1,'IXNMuseFileReader-p']]],
+  ['getconfiguration',['getConfiguration',['../protocol_i_x_n_muse_file_reader-p.html#a90db6edc12b70102f92f8d905793a166',1,'IXNMuseFileReader-p']]],
+  ['getconnectionstate',['getConnectionState',['../protocol_i_x_n_muse-p.html#aa09a916dbe3080fef4a4381f44109956',1,'IXNMuse-p']]],
+  ['getdatapacket',['getDataPacket',['../protocol_i_x_n_muse_file_reader-p.html#aa053d83ebafd54b85b179c7d83f03445',1,'IXNMuseFileReader-p']]],
+  ['getdsp',['getDsp',['../protocol_i_x_n_muse_file_reader-p.html#ae6dd31b0baea7e484afbb99d1dd907f9',1,'IXNMuseFileReader-p']]],
+  ['getfilereader_3a',['getFileReader:',['../protocol_i_x_n_muse_file_reader-p.html#ae101cbe6653201f8f29a384f50f48039',1,'IXNMuseFileReader-p']]],
+  ['getfilewriter_3a',['getFileWriter:',['../protocol_i_x_n_muse_file_writer-p.html#a4361811a20d806ed11c541bd7429fc83',1,'IXNMuseFileWriter-p']]],
+  ['getmacaddress',['getMacAddress',['../protocol_i_x_n_muse-p.html#a0d4acd8821b8eda3bd0bcd636796ae3b',1,'IXNMuse-p']]],
+  ['getmessageid',['getMessageId',['../protocol_i_x_n_muse_file_reader-p.html#aaea2810820e1957d793ee5a469f0516f',1,'IXNMuseFileReader-p']]],
+  ['getmessagetimestamp',['getMessageTimestamp',['../protocol_i_x_n_muse_file_reader-p.html#a9508a9134744bba79f30d8ada99ae424',1,'IXNMuseFileReader-p']]],
+  ['getmessagetype',['getMessageType',['../protocol_i_x_n_muse_file_reader-p.html#a53fb35b42f203fd6f43a888ee464b578',1,'IXNMuseFileReader-p']]],
+  ['getmuseconfiguration',['getMuseConfiguration',['../protocol_i_x_n_muse-p.html#abd1b88cbadbc0d7ee41f815bb4795b08',1,'IXNMuse-p']]],
+  ['getmuseversion',['getMuseVersion',['../protocol_i_x_n_muse-p.html#a3577be6450425eee5de577c355573057',1,'IXNMuse-p']]],
+  ['getname',['getName',['../protocol_i_x_n_muse-p.html#a53a1fd9d5cec0186df800f751a9349c0',1,'IXNMuse-p']]],
+  ['getversion',['getVersion',['../protocol_i_x_n_muse_file_reader-p.html#aca428c95ded41173f5572bfaf74816aa',1,'IXNMuseFileReader-p']]],
+  ['gotonextmessage',['gotoNextMessage',['../protocol_i_x_n_muse_file_reader-p.html#a7444a35fdcfac83f1f25bd9f28ee4d6b',1,'IXNMuseFileReader-p']]]
+];
