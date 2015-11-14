@@ -13,17 +13,15 @@ Pod::Spec.new do |s|
 
   s.description      = "libmuse is a library for interfacing with Muse headbands, including finding paired Muses, connecting to them, reading their state, and receiving packets for raw EEG data and all other values. You can use it in your own applications, subject to the terms of our license. The library consists of two parts: a core in C++ and a platform-specific interface in Objective-C for iOS."
 
-  s.homepage         = "https://github.com/monchote/libmuse"
-  s.license          = 'Please read the LICENSE file'
-  s.author           = 'InteraXon'
-  s.homepage         = 'http://developer.choosemuse.com'
+  s.homepage         = "http://developer.choosemuse.com"
+  s.license          = { :file => 'LICENSE', :type => 'Commercial' }
+  s.author           = "InteraXon"
   s.source           = { :git => "https://github.com/monchote/libmuse.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.ios.source_files = 'Headers/Muse/*.h'
-  s.ios.public_header_files = 'Headers/Muse/*.h'
   s.ios.vendored_libraries = 'libMuse.a'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-lc++' }
 end
