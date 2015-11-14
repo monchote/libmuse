@@ -29,6 +29,6 @@ The library consists of two parts: a core in C++ and a platform-specific interfa
   s.requires_arc = true
 
   s.ios.source_files = 'Headers/Muse/*.h'
-  s.ios.public_header_files = 'Headers/Muse/*.h'
+  s.ios.public_header_files = 'Headers/Muse/Muse.h'
   s.ios.vendored_libraries = 'libMuse.a'
 end
