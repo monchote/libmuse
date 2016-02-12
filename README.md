@@ -23,7 +23,7 @@ modify it to make it do what you want it to do. `AppDelegate.m` and
 
 ### Including it in your own application
 
-Install [Cocoapods](https://guides.cocoapods.org/using/getting-started.html) and add the following line to your project's Podfile:
+Install [CocoaPods](https://guides.cocoapods.org/using/getting-started.html) and add the following line to your project's Podfile:
 
 ```
 pod "libmuse", :git => 'https://github.com/monchote/libmuse.git'
