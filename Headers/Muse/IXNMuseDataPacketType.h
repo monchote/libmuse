@@ -16,12 +16,7 @@ typedef NS_ENUM(NSInteger, IXNMuseDataPacketType)
     /**
      * 3-axis accelerometer data packet
      * Size of the values array for this packet is always 3.
-     * \if IOS_ONLY
      * Take a look at IXNAccelerometer.h for mapping details.
-     * \endif
-     * \if IOS_ANDROID
-     * Take a look at Accelerometer enum for mapping details
-     * \endif
      */
     IXNMuseDataPacketTypeAccelerometer,
     /**
@@ -30,12 +25,7 @@ typedef NS_ENUM(NSInteger, IXNMuseDataPacketType)
      * Currently size of the values array is always 4 for this packet.
      * In the future new %Muse Presets may be added, which will have extra
      * values.
-     * \if IOS_ONLY
      * Take a look at IXNEeg.h for mapping details.
-     * \endif
-     * \if IOS_ANDROID
-     * Take a look at Eeg enum for mapping details.
-     * \endif
      */
     IXNMuseDataPacketTypeEeg,
     /**
@@ -74,22 +64,12 @@ typedef NS_ENUM(NSInteger, IXNMuseDataPacketType)
     IXNMuseDataPacketTypeQuantization,
     /**
      * %Muse headband battery data packet.
-     * \if IOS_ONLY
      * Take a look at IXNBattery.h for mapping details.
-     * \endif
-     * \if IOS_ANDROID
-     * Take a look at Battery enum for mapping details.
-     * \endif
      */
     IXNMuseDataPacketTypeBattery,
     /**
      * Packet contains raw data from %Muse DRL and REF sensors.
-     * \if IOS_ONLY
      * Take a look at IXNDrlRef.h for mapping details.
-     * \endif
-     * \if IOS_ANDROID
-     * Take a look at DrlRef enum for mapping details.
-     * \endif
      */
     IXNMuseDataPacketTypeDrlRef,
     /**
