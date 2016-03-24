@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://twitter.com/InteraXon"
 
   s.source           = { :git => "https://github.com/monchote/libmuse.git", :tag => s.version.to_s }
-  s.documentation_url = "http://developer.choosemuse.com/ios/ios-api-reference#/"
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
