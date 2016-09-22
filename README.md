@@ -26,7 +26,7 @@ modify it to make it do what you want it to do. `AppDelegate.m` and
 Install [CocoaPods](https://guides.cocoapods.org/using/getting-started.html) and add the following line to your project's Podfile:
 
 ```
-pod "libmuse", :git => 'https://github.com/monchote/libmuse.git'
+pod "libmuse"
 ```
 
 Add a `#import "Muse.h"` line to your source where appropriate. If you're using Swift, make sure you add it to your bridging header.
